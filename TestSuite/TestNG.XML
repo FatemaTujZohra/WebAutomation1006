@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "regression">
+
+<test name= "cucumber">
+<classes>
+
+<class name= "runner_cukes.TestRunner"></class>
+<class name = "regression2.RegressionClass2"></class>
+</classes>
+
+
+</test>
+
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]">
+  <test name="cucumber(failed)">
+    <classes>
+      <class name="regression2.RegressionClass2">
+        <methods>
+          <include name="facebooklogin"/>
+        </methods>
+      </class> <!-- regression2.RegressionClass2 -->
+    </classes>
+  </test> <!-- cucumber(failed) -->
+</suite> <!-- Failed suite [regression] -->

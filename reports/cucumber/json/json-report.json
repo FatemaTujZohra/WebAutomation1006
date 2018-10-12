@@ -1,0 +1,331 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3470219004,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29620,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2602858809,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Selecting different footer links and checking the corresponding page",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-footer-links-and-checking-the-corresponding-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 953270102,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2408388271,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select \"Privacy\" link in the Google footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Privacy",
+                  "offset": 10
+                }
+              ],
+              "location": "GoogleFooterLinksTest.i_select_link_in_the_Google_footer(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2192049467,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verified the selected Google page by the existence of the \"This Privacy Policy is meant to help you\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This Privacy Policy is meant to help you",
+                  "offset": 61
+                }
+              ],
+              "location": "GoogleFooterLinksTest.i_verified_the_selected_Google_page_by_the_existence_of_the_text(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Important"
+          },
+          {
+            "line": 8,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3101529795,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17631,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2706162622,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Selecting different footer links and checking the corresponding page",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-footer-links-and-checking-the-corresponding-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 965463960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2388244305,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select \"Terms\" link in the Google footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Terms",
+                  "offset": 10
+                }
+              ],
+              "location": "GoogleFooterLinksTest.i_select_link_in_the_Google_footer(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2058689618,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verified the selected Google page by the existence of the \"Thanks for using our products and services\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thanks for using our products and services",
+                  "offset": 61
+                }
+              ],
+              "location": "GoogleFooterLinksTest.i_verified_the_selected_Google_page_by_the_existence_of_the_text(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Important"
+          },
+          {
+            "line": 8,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      }
+    ],
+    "name": "Google Footer links Checkup",
+    "description": "As a Google Lover, I want to learn about the legal policies and terms of service of Google and Gmail.",
+    "id": "google-footer-links-checkup",
+    "keyword": "Feature",
+    "uri": "features/GoogleFooterLinksTest.feature"
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7094831478,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to ToolsQA",
+            "match": {
+              "location": "ToolsQA.navigate_to_ToolsQA()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2218861075,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature-is-toolsqa;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1040439911,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20099,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "go to ToolsQA",
+            "match": {
+              "location": "ToolsQA.go_to_ToolsQA()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Regression"
+          },
+          {
+            "line": 8,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature is ToolsQA",
+    "description": "",
+    "id": "title-of-your-feature-is-toolsqa",
+    "keyword": "Feature",
+    "uri": "features/ToolsQA.feature"
+  }
+]
