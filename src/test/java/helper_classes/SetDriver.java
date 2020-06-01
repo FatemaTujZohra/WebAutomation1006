@@ -1,5 +1,7 @@
 package helper_classes;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
@@ -21,6 +23,8 @@ public class SetDriver {
 	        //System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 	        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");  // For Windows
 	        webDriver = new ChromeDriver();
+	        //webDriver.manage().window().maximize();
+            //webDriver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
 	        }
 	    
 	    @After

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3470219004,
+              "duration": 3651646229,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 29620,
+              "duration": 26799,
               "status": "passed"
             },
             "line": 7,
@@ -39,7 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 2602858809,
+              "duration": 4271622491,
               "status": "passed"
             },
             "match": {
@@ -54,7 +54,7 @@
         "after": [
           {
             "result": {
-              "duration": 953270102,
+              "duration": 1272813632,
               "status": "passed"
             },
             "match": {
@@ -67,7 +67,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2408388271,
+              "duration": 2302959587,
               "status": "passed"
             },
             "line": 10,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 2192049467,
+              "duration": 2296469313,
               "status": "passed"
             },
             "line": 11,
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3101529795,
+              "duration": 3131862990,
               "status": "passed"
             },
             "line": 6,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 17631,
+              "duration": 21510,
               "status": "passed"
             },
             "line": 7,
@@ -156,7 +156,7 @@
         "before": [
           {
             "result": {
-              "duration": 2706162622,
+              "duration": 3311515493,
               "status": "passed"
             },
             "match": {
@@ -171,7 +171,7 @@
         "after": [
           {
             "result": {
-              "duration": 965463960,
+              "duration": 1352663812,
               "status": "passed"
             },
             "match": {
@@ -184,7 +184,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2388244305,
+              "duration": 3036594268,
               "status": "passed"
             },
             "line": 10,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 2058689618,
+              "duration": 2078558896,
               "status": "passed"
             },
             "line": 11,
@@ -235,6 +235,1183 @@
             "name": "@GoogleFooterLinkTest"
           }
         ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2945553778,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25036,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2544482668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1342426980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2245521408,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Using our Services\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"You must follow any policies made available\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2979644463,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17631,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3093709097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1350094290,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2303767434,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Your Google Account\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"You may need a Google Account in order\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3010348259,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20452,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2911055116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1534639357,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2297201347,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Privacy and Copyright Protection\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"We respond to notices of alleged copyright infringement\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2965132852,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40551,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2997784153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1144152760,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2415203658,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Your Content in our Services\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"you upload, submit, store, send or receive content\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3848438399,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13752,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2507258274,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 958912331,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3466938253,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"About Software in our Services\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"Google gives you a personal, worldwide\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2838190636,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20452,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2235375198,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1010557714,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2126001080,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Modifying and Terminating our Services\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"We are constantly changing and improving our Services\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2827954862,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2316637611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 964876147,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2250697124,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Our Warranties and Disclaimers\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"We provide our Services using a commercially reasonable level of skill\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2735074416,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29619,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2331490909,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 1028481602,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2269279702,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Liability for our Services\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"TO THE EXTENT PERMITTED BY LAW\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2811733057,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15163,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2334231449,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 959087229,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2286429242,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Business uses of our Services\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"If you are using our Services on behalf of a business\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2808599701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16926,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2382389095,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 63,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 945006869,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2135783036,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"About these Terms\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"We may modify these terms or any additional terms\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2804350310,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the Google home page url",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_launch_the_Google_home_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15163,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll down to the end of the page",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_scroll_down_to_the_end_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2352094335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.beforeTest()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Selecting different sublinks on the Google Terms footer link",
+        "description": "",
+        "id": "google-footer-links-checkup;selecting-different-sublinks-on-the-google-terms-footer-link;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 974966643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetDriver.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2806848603,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select the Terms link in the Google footer",
+            "match": {
+              "location": "GoogleFooterLinksTest.i_select_the_Terms_link_in_the_Google_footer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on a specific Terms of Service \"Updates\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I verified the selected \"Comparison\" Terms detail",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@GoogleFooterLinkTest"
+          }
+        ]
       }
     ],
     "name": "Google Footer links Checkup",
@@ -255,7 +1432,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7094831478,
+              "duration": 3934409310,
               "status": "passed"
             },
             "line": 6,
@@ -271,7 +1448,7 @@
         "before": [
           {
             "result": {
-              "duration": 2218861075,
+              "duration": 2233774316,
               "status": "passed"
             },
             "match": {
@@ -286,7 +1463,7 @@
         "after": [
           {
             "result": {
-              "duration": 1040439911,
+              "duration": 978831680,
               "status": "passed"
             },
             "match": {
@@ -299,7 +1476,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20099,
+              "duration": 21510,
               "status": "passed"
             },
             "line": 11,

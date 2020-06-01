@@ -68,15 +68,18 @@ public class GoogleFooterLinksTest {
 		//driver.findElement(By.cssSelector("a[data-g-label= 'privacy_policy']")).click();
 
 
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 	}
-
-	@Then("^I verified the selected \"([^\"]*)\" Policty detail$")
-	public void i_verified_the_selected_Policty_detail(String policy_detail) throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		Assert.assertEquals(true, driver.getPageSource().contains(policy_detail));
+	@Then("^I verified the selected \"(.*?)\" Policy detail$")
+	public void i_verified_the_selected_Policy_detail(String policy_detail) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	    Assert.assertEquals(true, driver.getPageSource().contains(policy_detail));
 		Thread.sleep(2000);
 	}
+
+
+	
 
 	@Given("^I select the Terms link in the Google footer$")
 	public void i_select_the_Terms_link_in_the_Google_footer() throws Throwable {
@@ -85,26 +88,26 @@ public class GoogleFooterLinksTest {
 
 	}
 
-	@When("^I click on a Technologies and Principles tab$")
-	public void i_click_on_a_Technologies_and_Principles_tab() throws Throwable {
-		driver.findElement(By.linkText("Technologies and Principles")).click(); 
-		//Thread.sleep(2000);
+	
 
+	@When("^I click on a specific Terms of Service \"(.*?)\"$")
+	public void i_click_on_a_specific_Terms_of_Service(String terms_service) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	    driver.findElement(By.linkText(terms_service)).click();
+		Thread.sleep(15000);
 	}
 
-	@When("^I click on a specific Technologies \"([^\"]*)\"$")
-	public void i_click_on_a_specific_Technologies(String Technologies) throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		driver.findElement(By.linkText(Technologies)).click();
-		Thread.sleep(4000);
-	}
-
-	@Then("^I verified the selected \"([^\"]*)\" Technology detail$")
-	public void i_verified_the_selected_Technology_detail(String Technology_detail) throws Throwable {
-
-		Assert.assertEquals(true, driver.getPageSource().contains(Technology_detail));
+	@Then("^I verified the selected \"(.*?)\" Terms detail$")
+	public void i_verified_the_selected_Terms_detail(String terms_detail) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	    Assert.assertEquals(true, driver.getPageSource().contains(terms_detail));
 		Thread.sleep(2000);
-
 	}
+
+	
+
+	
 
 }

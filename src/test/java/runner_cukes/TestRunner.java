@@ -7,13 +7,11 @@ import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
         features = "classpath:features/",
         glue={ "helper_classes", "step_definitions", "runner_cukes"},  // These two must be glued
-        
-        
-        tags = {"@Regression, @GoogleFooterLinkTest"},
+        tags = {"@RunMe"},
         monochrome = true,
         plugin = {"pretty", "html:target/cucumber-html_report", "junit:target/cucumber-junit-results.xml", "json:reports/cucumber/json/json-report.json"}
         )

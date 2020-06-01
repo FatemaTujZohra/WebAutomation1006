@@ -19,46 +19,49 @@ Then I verified the selected Google page by the existence of the "<linkedPage_te
     Scenario Outline: Selecting different sublinks on the Google Privacy footer link     
     Given I select the Privacy link in the Google footer     
     When I click on a specific Privacy Policy  "<privacy_policy>"     
-    Then I verified the selected "<policy_detail>" Policty detail 
+    Then I verified the selected "<policy_detail>" Policy detail 
  
     Examples:     
- |privacy_policy|policy_detail| 
- 
- |Information we collect|We collect information|  
- |How we use information we collect|We use the information we collect|  
- |Transparency and choice|People have different privacy concerns|  
- |Information you share|Many of our services let you share information with others|
- |Accessing and updating your personal information|We aim to maintain our services in a manner that protects information|
- |Information we share|We do not share personal information with companies|
- |Information security| We work hard to protect Google and our users|
- |When this Privacy Policy applies|Our Privacy Policy applies to all of the services offered by Google LLC|
- |Compliance and cooperation with regulatory authorities|We regularly review our compliance with our Privacy Policy|
- |Changes|Our Privacy Policy may change from time to time|
- |Specific product practices|The following notices explain specific privacy practices|
- |Other useful privacy and security related materials|Further useful privacy and security related materials can be found|
- |Self Regulatory Frameworks|Self Regulatory Frameworks|
- |Key terms|An affiliate is an entity that belongs|
- |Partners|How Google uses data when you use our partners|
- |Updates|We want to be as transparent as possible about the changes|
+      | privacy_policy                           |policy_detail|
+      | Introduction                             | We build a range of services that help millions of people daily to explore and interact |
+      | Information Google collects              | We collect information to provide better services to all our users                      |
+      | Why Google collects data                 | We use the information we collect from all our services                                 |
+      | Your privacy controls                    | You have choices regarding the information we collect                                   |
+      | Sharing your information                 | When you share your information                                                         |
+      | Keeping your information secure          | We build security into our services to protect your information                         |
+      | Exporting & deleting your information    | You can export a copy of your information or delete it from your                        |
+      | Compliance & cooperation with regulators | We regularly review this Privacy Policy                                                 |
+      | About this policy                        | This Privacy Policy applies to all of the services                                      |
+      | Related privacy practices                | The following privacy notices provide additional information about some Google services |
+      | Data transfer frameworks                 | European Union member countries                                                         |
+      | Key terms                                | A unique identifier is a string of characters                                           |
+      | Partners                                 | YouTube also allows advertisers and creators to serve                                   |
+      | Updates                                  | We want to be as transparent as possible about                                          |
 
    
  
- 
+ @GoogleFooterLinkTest
   Scenario Outline: Selecting different sublinks on the Google Terms footer link     
-  Given I select the Terms link in the Google footer     
-  When  I click on a Technologies and Principles tab     
-  And   I click on a specific Technologies "<Technologies>"      
-  Then  I verified the selected "<Technology_detail>" Technology detail 
+  Given I select the Terms link in the Google footer          
+  When  I click on a specific Terms of Service "<terms_service>"      
+  Then  I verified the selected "<terms_detail>" Terms detail 
  
   Examples: 
-  |Technologies|Technology_detail|
-  |Advertising|Advertising keeps Google and many of the websites and services you use free of charge| 
-  |How Google uses cookies|A cookie is a small piece of text sent to your browser by a website you visit|
-  |How Google uses pattern recognition|How Google uses pattern recognition to make sense of images|
-  |Types of location data used by Google|Different types of location information may be used |
-  |How Google Wallet uses credit card numbers|Google uses the credit card and debit card numbers|
-  |How Google Voice works|Google Voice stores, processes and maintains your call history|
-  |Google Product Privacy Guide|Welcome! The articles in this guide will give you more information|
+  
+      
+      | terms_service                          | terms_detail|
+      
+      | Using our Services                     | You must follow any policies made available                            |
+      | Your Google Account                    | You may need a Google Account in order                                 |
+      | Privacy and Copyright Protection       | We respond to notices of alleged copyright infringement                |
+      | Your Content in our Services           | you upload, submit, store, send or receive content                     |
+      | About Software in our Services         | Google gives you a personal, worldwide                                 |
+      | Modifying and Terminating our Services | We are constantly changing and improving our Services                  |
+      | Our Warranties and Disclaimers         | We provide our Services using a commercially reasonable level of skill |
+      | Liability for our Services             | TO THE EXTENT PERMITTED BY LAW                                         |
+      | Business uses of our Services          | If you are using our Services on behalf of a business                  |
+      | About these Terms                      | We may modify these terms or any additional terms                      |
+      | Updates                                | Comparison                                                             |
  
 
 

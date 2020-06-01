@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 01 22:36:56 EDT 2018</td>
+<td>Started on:</td><td>Thu Jul 18 18:58:46 EDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34889 ms)</td>
+<tr><td>Total time:</td><td>141 seconds (141409 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,14 +77,14 @@ function toggleAllBoxes() {
 <tr>
 <td title='regression2.RegressionClass2.facebooklogin()'><b>facebooklogin</b><br>Test class: regression2.RegressionClass2</td>
 <td></td>
-<td>5</td>
-<td>regression2.RegressionClass2@cb5822</td></tr>
+<td>6</td>
+<td>regression2.RegressionClass2@63753b6d</td></tr>
 <tr>
 <td title='runner_cukes.TestRunner.run_cukes()'><b>run_cukes</b><br>Test class: runner_cukes.TestRunner<br>Test method: Runs Cucumber Features<br/>
-<a href="#Output-1128948651" onClick='toggleBox("Output-1128948651", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2053996178" onClick='toggleBox("Output-2053996178", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1128948651" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1128948651">
+<a href="#Output-2053996178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2053996178">
 <div "featureFile">Feature File: features&#x2F;GoogleFooterLinksTest.feature</div><br/>
 <div "feature">Feature: Google Footer links Checkup</div><br/>
 <div "scenarioOutline">Scenario Outline: Selecting different footer links and checking the corresponding page</div><br/>
@@ -93,21 +93,88 @@ function toggleAllBoxes() {
 <div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div><br/>
 <div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
 <div "result">And  I scroll down to the end of the page (passed : 2s)</div><br/>
-<div "result">When  I select &quot;Privacy&quot; link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I select &quot;Privacy&quot; link in the Google footer (passed : 3s)</div><br/>
 <div "result">Then  I verified the selected Google page by the existence of the &quot;This Privacy Policy is meant to help you&quot; text (passed : 0s)</div><br/>
 <div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div><br/>
 <div "result">Given  I launch the Google home page url (passed : 3s)</div><br/>
 <div "result">And  I scroll down to the end of the page (passed : 2s)</div><br/>
+<div "scenarioOutline">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">When  I select &quot;Terms&quot; link in the Google footer (passed : 2s)</div><br/>
+<div "result">Then  I verified the selected Google page by the existence of the &quot;Thanks for using our products and services&quot; text (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;&lt;terms_service&gt;&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;&lt;terms_detail&gt;&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Using our Services&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;You must follow any policies made available&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 3s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Your Google Account&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;You may need a Google Account in order&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Privacy and Copyright Protection&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;We respond to notices of alleged copyright infringement&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 3s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 3s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Your Content in our Services&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;you upload, submit, store, send or receive content&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;About Software in our Services&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;Google gives you a personal, worldwide&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Modifying and Terminating our Services&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;We are constantly changing and improving our Services&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Our Warranties and Disclaimers&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;We provide our Services using a commercially reasonable level of skill&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Liability for our Services&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;TO THE EXTENT PERMITTED BY LAW&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;Business uses of our Services&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;If you are using our Services on behalf of a business&quot; Terms detail (undefined)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 2s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
+<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div><br/>
+<div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div><br/>
+<div "result">When  I click on a specific Terms of Service &quot;About these Terms&quot; (undefined)</div><br/>
+<div "result">Then  I verified the selected &quot;We may modify these terms or any additional terms&quot; Terms detail (undefined)</div><br/>
 <div "featureFile">Feature File: features&#x2F;ToolsQA.feature</div><br/>
 <div "feature">Feature: Title of your feature is ToolsQA</div><br/>
-<div "result">When  I select &quot;Terms&quot; link in the Google footer (passed : 2s)</div><br/>
+<div "result">Given  I launch the Google home page url (passed : 3s)</div><br/>
 <div "scenario">Scenario: Title of your scenario</div><br/>
-<div "result">Then  I verified the selected Google page by the existence of the &quot;Thanks for using our products and services&quot; text (passed : 0s)</div><br/>
+<div "result">And  I scroll down to the end of the page (passed : 0s)</div><br/>
 </div>
 </td>
 <td></td>
-<td>29</td>
-<td>runner_cukes.TestRunner@5e5792a0</td></tr>
+<td>134</td>
+<td>runner_cukes.TestRunner@78c03f1f</td></tr>
 </table><p>
 </body>
 </html>
